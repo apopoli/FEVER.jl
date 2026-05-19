@@ -1,17 +1,10 @@
-# FEVER.jl
+# FEVER.jl - A finite element tool for electrothermal simulations in high-voltage engineering
 
 <p align="center">
   <img src="assets/fever_cover.png" alt="FEVER.jl electrothermal simulation example" width="400">
 </p>
 
-**A finite element tool for electrothermal simulations in high-voltage engineering**
-
-FEVER.jl is a Julia-based finite element tool for the simulation of linear and nonlinear coupled electrothermal problems in high-voltage engineering, with a focus on HVDC cable systems, cable joints, and related insulation configurations.
-
-FEVER.jl is a Julia rewrite of the original MATLAB prototype [FEVER](https://github.com/apopoli/FEVER), based on [Ferrite.jl](https://github.com/Ferrite-FEM/Ferrite.jl). Compared with the original MATLAB implementation, FEVER.jl supports more general 2D, 2D axisymmetric, and 3D geometries, larger finite element meshes, and nonlinear dielectric conduction problems requiring robust residual and Jacobian treatment.
-
-> The source code is currently available upon request.  
-> For access, contact **arturo.popoli@unibo.it**
+**FEVER.jl** is a Julia-based finite element tool developed by Arturo Popoli and Simone Vincenzo Suraci at the Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi" of the University of Bologna. The code is intended for the simulation of linear and nonlinear electrothermal problems in high-voltage engineering, with a focus on HVDC cable systems, cable joints, and related insulation configurations.
 
 ---
 
@@ -39,6 +32,17 @@ Typical analyses include:
 - Thermal exchange boundary conditions for soil, air, ducts, and external domains
 - IEC 60287-based buried-cable thermal boundary conditions
 - human-readable `.toml` input files and VTK output for ParaView
+
+---
+
+## Development
+
+FEVER.jl is developed by Arturo Popoli at the Department of Electrical, Electronic and Information Engineering "Guglielmo Marconi", University of Bologna.
+
+The code builds on the original MATLAB prototype [FEVER](https://github.com/apopoli/FEVER), originally developed by Arturo Popoli, Giacomo Pierotti, and Prof. Andrea Cristofolini, with contributions from Prof. Giovanni Mazzanti. The finite element formulation and its application to HVDC cable-joint electrothermal simulations are described in the FEVER reference paper reported in the Citation section. FEVER.jl supports more general 2D, 2D axisymmetric, and 3D geometries, larger finite element meshes, and nonlinear dielectric conduction problems requiring robust residual and Jacobian treatment.
+
+> The source code is currently available upon request.  
+> For access, contact **arturo.popoli@unibo.it**
 
 ## Mathematical formulation
 
