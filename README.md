@@ -1,4 +1,4 @@
-# FEVER.jl - A finite element tool for electrothermal simulations in high-voltage engineering
+# FEVER.jl - A finite element tool for HV cables, joints and accessories
 
 <p align="center">
   <img src="assets/fever_cover.png" alt="FEVER.jl electrothermal simulation example" width="400">
