@@ -21,6 +21,21 @@ Typical analyses include:
 - Study of longitudinal heat exchange in joints, accessories, and nonuniform cable layouts
 - Assessment of installation conditions such as direct burial, ducts, tunnels, air-exposed sections, and external thermal resistances
 
+
+### Example - HVDC joint analysis (200 kV, 1.22E6 A/m^2, XLPE)
+
+<p align="center">
+  <img src="assets/phi_geom.png" alt="electric potential - electrothermal simulation example" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/T.png" alt="temperature - electrothermal simulation example" width="400">
+</p>
+
+<p align="center">
+  <img src="assets/E.png" alt="electric field electrothermal simulation example" width="400">
+</p>
+
 ---
 
 ## Main features
